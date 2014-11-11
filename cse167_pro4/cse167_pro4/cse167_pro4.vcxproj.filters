@@ -13,6 +13,9 @@
     <ClCompile Include="Vector3d.cpp" />
     <ClCompile Include="Vector4.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="Group.cpp" />
+    <ClCompile Include="MatrixTransform.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
@@ -20,5 +23,11 @@
     <ClInclude Include="parser.h" />
     <ClInclude Include="Vector3d.h" />
     <ClInclude Include="Vector4d.h" />
+    <ClInclude Include="Node.h" />
+    <ClInclude Include="Group.h" />
+    <ClInclude Include="Geode.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="Const.h" />
+    <ClInclude Include="MatrixTransform.h" />
   </ItemGroup>
 </Project>

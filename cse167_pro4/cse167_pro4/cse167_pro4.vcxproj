@@ -80,15 +80,24 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Cube.cpp" />
+    <ClCompile Include="Group.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Matrix4d.cpp" />
+    <ClCompile Include="MatrixTransform.cpp" />
     <ClCompile Include="parser.cpp" />
     <ClCompile Include="Vector3d.cpp" />
     <ClCompile Include="Vector4.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="Const.h" />
+    <ClInclude Include="Cube.h" />
+    <ClInclude Include="Geode.h" />
+    <ClInclude Include="Group.h" />
     <ClInclude Include="Matrix4d.h" />
+    <ClInclude Include="MatrixTransform.h" />
+    <ClInclude Include="Node.h" />
     <ClInclude Include="parser.h" />
     <ClInclude Include="Vector3d.h" />
     <ClInclude Include="Vector4d.h" />
