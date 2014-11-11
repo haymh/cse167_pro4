@@ -16,6 +16,8 @@
     <ClCompile Include="Cube.cpp" />
     <ClCompile Include="Group.cpp" />
     <ClCompile Include="MatrixTransform.cpp" />
+    <ClCompile Include="Window.cpp" />
+    <ClCompile Include="Sphere.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
@@ -29,5 +31,7 @@
     <ClInclude Include="Cube.h" />
     <ClInclude Include="Const.h" />
     <ClInclude Include="MatrixTransform.h" />
+    <ClInclude Include="Window.h" />
+    <ClInclude Include="Sphere.h" />
   </ItemGroup>
 </Project>
