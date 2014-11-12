@@ -32,11 +32,22 @@ Vector3d Vector3d::operator+(Vector3d & another){
 
 void Vector3d::add(Vector3d & another){
 	for (int i = 0; i < 3; i++)
-		v[i] += another[i];
+		v[i] += another[i]; 
 }
 
 Vector3d Vector3d::operator-(Vector3d & another){
 	return Vector3d(v[0] - another[0], v[1] - another[1], v[2] - another[2]);
+}
+
+
+Vector3d Vector3d::operator*(double & f){
+	Vector3d t = *this;
+	t.scale(f);
+	return t;
+}
+
+Vector3d Vector3d::operator*(Vector3d & another){
+	return this->cross(another);
 }
 
 void Vector3d::substract(Vector3d & another){
@@ -49,9 +60,10 @@ void Vector3d::negate(){
 		v[i] = 0 - v[i];
 }
 
-void Vector3d::scale(GLdouble s){
+Vector3d& Vector3d::scale(GLdouble s){
 	for (int i = 0; i < 3; i++)
 		v[i] *= s;
+	return *this;
 }
 
 GLdouble Vector3d::dot(Vector3d & another){

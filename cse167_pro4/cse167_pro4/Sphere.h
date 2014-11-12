@@ -5,16 +5,16 @@
 #include "Const.h"
 #include "Vector3d.h"
 
-class Sphere : Geode{
+class Sphere : public Geode{
 public:
 	Sphere(double r, int slices, int stacks, Vector3d color, draw::mode);
-
+	Bs update();
 private:
 	void render();
 	double radius;
 	int slices;
 	int stacks;
-	Vector3d color;
+	Vector3d color; 
 	draw::mode mode;
 };
 

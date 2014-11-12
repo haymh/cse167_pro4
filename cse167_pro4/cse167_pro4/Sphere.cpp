@@ -19,3 +19,9 @@ void Sphere::render(){
 		break;
 	}
 }
+
+Bs Sphere::update(){
+	bs.radius = radius; 
+	bs.center = Vector3d(0, 0, 0);
+	return bs;
+}

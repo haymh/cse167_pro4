@@ -23,7 +23,7 @@ Vector4d::Vector4d(GLdouble x, GLdouble y, GLdouble z, GLdouble w){
 
 void Vector4d::set(int index, GLdouble value){
 	if (index <= 4 && index >= 0)
-		v[index] = value;
+		v[index] = value; 
 }
 
 GLdouble Vector4d::get(int index){

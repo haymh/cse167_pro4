@@ -22,7 +22,7 @@ public:
 	Vector4d operator-(Vector4d & another);
 	Vector3d getVector3d();
 	void substract(Vector4d & another);
-	void dehomogenize();
+	void dehomogenize(); 
 	void print();
 
 };

@@ -6,15 +6,16 @@
 #include "Const.h"
 
 
-class Cube : Geode{
+class Cube : public Geode{
 
 public:
 	Cube(double s, Vector3d c, draw::mode);
+	Bs update();
 private:
 	void render();
 
 	double size;
-	Vector3d color;
+	Vector3d color; 
 	draw::mode mode;
 };
 

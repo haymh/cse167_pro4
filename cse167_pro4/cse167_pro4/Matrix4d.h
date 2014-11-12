@@ -25,7 +25,7 @@ class Matrix4d
 	void makeScale(double sx, double sy, double sz);
 	void makeTranslate(double tx, double ty, double tz);
 	void set(int, int, double);
-    double* getPointer(); 
+    double* getPointer();  
     void identity(); 
     void transpose();
 	void print(std::string comment);

@@ -22,7 +22,7 @@ public:
 	Camera(double eyeX, double eyeY, double eyeZ,
 		double centerX, double centerY, double centerZ,
 		double upX, double upY, double upZ);
-	Matrix4d getMatrix();
+	Matrix4d getMatrix(); 
 	
 
 

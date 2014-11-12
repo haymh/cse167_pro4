@@ -27,7 +27,7 @@ void Parser::parse(char* file, vector<double> &position, vector<Vector3d> &norma
 		if (d > x_max)
 			x_max = d;
 		if (d < x_min)
-			x_min = d;
+			x_min = d; 
 		position.push_back(d);
 
 		iss >> d;

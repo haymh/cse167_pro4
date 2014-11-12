@@ -14,6 +14,12 @@ void Cube::render(){
 		break;
 	case draw::WIRE:
 		glutWireCube(size);
-		break;
+		break; 
 	}
+}
+
+Bs Cube::update(){
+	bs.radius = size * cos(45 / 180 * M_PI);
+	bs.center = Vector3d(0, 0, 0);
+	return bs;
 }

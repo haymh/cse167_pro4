@@ -17,15 +17,17 @@ public:
 	Vector3d operator+(Vector3d & another);
 	void add(Vector3d & another);
 	Vector3d operator-(Vector3d & another);
+	Vector3d operator*(double & f);
+	Vector3d operator*(Vector3d & another);
 	void substract(Vector3d & another);
 	void negate();
-	void scale(GLdouble s);
+	Vector3d& scale(GLdouble s);
 	GLdouble dot(Vector3d & another);
 	static GLdouble dot(Vector3d &, Vector3d &);
 	Vector3d cross(Vector3d & another);
 	GLdouble magnitude();
 	Vector3d& normalize();
-	void print(char*);
+	void print(char*); 
 
 };
 

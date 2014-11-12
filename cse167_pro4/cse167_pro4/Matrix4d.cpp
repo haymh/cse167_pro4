@@ -24,7 +24,7 @@ Matrix4d& Matrix4d::operator=(const Matrix4d& m2)
       for (int j=0; j<4; ++j)
       {
         m[i][j] = m2.m[i][j];
-      }
+      } 
     }
   }
   return *this;

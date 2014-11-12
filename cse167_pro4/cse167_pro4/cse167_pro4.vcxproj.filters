@@ -18,6 +18,10 @@
     <ClCompile Include="MatrixTransform.cpp" />
     <ClCompile Include="Window.cpp" />
     <ClCompile Include="Sphere.cpp" />
+    <ClCompile Include="Arm.cpp" />
+    <ClCompile Include="Leg.cpp" />
+    <ClCompile Include="Robot.cpp" />
+    <ClCompile Include="FrustumCulling.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
@@ -33,5 +37,10 @@
     <ClInclude Include="MatrixTransform.h" />
     <ClInclude Include="Window.h" />
     <ClInclude Include="Sphere.h" />
+    <ClInclude Include="Arm.h" />
+    <ClInclude Include="Leg.h" />
+    <ClInclude Include="Robot.h" />
+    <ClInclude Include="FrustumCulling.h" />
+    <ClInclude Include="Debug.h" />
   </ItemGroup>
 </Project>

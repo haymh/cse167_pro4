@@ -18,7 +18,7 @@ void Camera::setCamera(double eyeX, double eyeY, double eyeZ,
 	double upX, double upY, double upZ){
 	
 	double f[3];
-	f[0] = centerX - eyeX;
+	f[0] = centerX - eyeX; 
 	f[1] = centerY - eyeY;
 	f[2] = centerZ - eyeZ;
 	double m_f = sqrt(f[0] * f[0] + f[1] * f[1] + f[2] * f[2]);
